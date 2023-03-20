@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-source ~/repo.conf
+source repo.conf
 cd ~/storage/shared/$GH_REPO
 git pull
 cd ~
