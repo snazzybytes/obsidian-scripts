@@ -1,5 +1,6 @@
-source $HOME/repo.conf
-cd $HOME/storage/shared/$GH_REPO
+#!/data/data/com.termux/files/usr/bin/bash
+source ~/repo.conf
+cd ~/storage/shared/$GH_REPO
 git pull
-cd $HOME
+cd ~
 bash -c "read -t 3 -n 1"
